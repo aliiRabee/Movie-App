@@ -1,0 +1,36 @@
+name: movie_app
+description: "Movie App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  dio: ^5.6.0
+  internet_connection_checker: ^2.0.0
+  get_it: ^7.7.0
+  flutter_bloc: ^8.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
